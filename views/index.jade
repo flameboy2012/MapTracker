@@ -1,0 +1,15 @@
+extends ./_layout.jade
+
+block content
+	#map
+
+block scripts
+	script(src="/js/index.js")
+	script(src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap")
+
+block css
+	style.
+		#map {
+		width: 100%;
+		height: 100%;
+		}

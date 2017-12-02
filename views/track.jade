@@ -1,0 +1,12 @@
+extends ./_layout.jade
+
+block content
+	p this is the tracking page
+	label(for="name") Name:
+	input#name(type="text")
+
+	button#track Track Me!
+	button#stop Stop Tracking
+
+block scripts
+	script(src="/js/track.js")
